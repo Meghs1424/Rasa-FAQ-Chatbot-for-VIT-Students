@@ -17,6 +17,7 @@ intents:
   - contact_relation
   - library
   - schools_list
+  - thanks
 
 responses:
   utter_greet:
@@ -38,11 +39,14 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+  utter_please_rephrase:
+  - text: I'm sorry, I didn't quite understand that. Could you rephrase?
+
   utter_vit:
   - text: "Vellore Institute of Technology is a private deemed university initially located in Vellore, India. Recognized as an Institution of Eminence by Govt. of India. No. 1 Private University for Innovation as recognized by ARIIA, Govt. of India."
 
   utter_campus:
-  - text: "There are 4 campuses all-around India - Vellore, Chennai, Bhopal, Amravati "
+  - text: "There are 4 campuses all-around India - Vellore, Chennai, Bhopal, Amravati"
 
   utter_programmes:
   - text: "VIT Group of Institutions offer 64 Undergraduate, 35 Postgraduate, 16 Integrated, 2 Research programmes and 2 M.Tech Industrial Programmes. In addition, full-time Ph.D. in Engineering and Management disciplines, Ph.D. in Science and Languages and Integrated Ph.D. programmes in engineering disciplines are offered."
@@ -51,13 +55,22 @@ responses:
   - text: "Whom do you want to contact?"
 
   utter_admin_contact:
-  - text: "Dr. T. Palani Rajan\n Assistant Director (Admissions)\n Phone: +91 44 3993 1003\n Fax : +91-44 3993 2555\n Eamil: admin.chennai@vit.ac.in"
+  - text: "Dr. T. Palani Rajan\n 
+          Assistant Director (Admissions)\n 
+          Phone: +91 44 3993 1003\n 
+          Fax : +91-44 3993 2555\n 
+          Eamil: admin.chennai@vit.ac.in"
 
   utter_placement_contact:
-  - text: "Dr. Arockia Selvakumar (Director – Placement & Training)\n Prof. V. Anantha Krishnan (Assistant Director – Placements and Training )\n Email: chennai.pat@vit.ac.in"
+  - text: "Dr. Arockia Selvakumar (Director – Placement & Training)\n 
+            Prof. V. Anantha Krishnan (Assistant Director – Placements and Training )\n 
+            Email: chennai.pat@vit.ac.in"
 
   utter_relation_contact:
-  - text: "Dr. Syed Ibrahim &\n Dr. Nithya Venkatesan\n Assistant Director – International Relations\n Email: adir.chennai@vit.ac.in"
+  - text: "Dr. Syed Ibrahim &\n 
+            Dr. Nithya Venkatesan\n 
+            Assistant Director – International Relations\n 
+            Email: adir.chennai@vit.ac.in"
 
   utter_library_link:
   - text: "https://egateway.chennai.vit.ac.in/"
@@ -74,6 +87,10 @@ responses:
           - VIT Business School (VITBS)\n
           - VIT School of Law (VITSOL)\n
           - VIT Fashion Institute of Technology (VFIT)"
+
+  utter_welcome:
+  - text: Your welcome
+  - text: Happy to help!!
 
 session_config:
   session_expiration_time: 60
