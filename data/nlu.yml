@@ -90,3 +90,60 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: about_vit
+  examples: |
+    - what is vit?
+    - tell me something about vit.
+    - need info about vit.
+
+
+- intent: campus_vit
+  examples: |
+    - campus location
+    - where is vit?
+    - how many campus are there?
+
+- intent: programmes_offered
+  examples: |
+    - what are the programmes offered at VIT?
+    - college programmes
+    - courses offered
+    - what all is taught? 
+
+- intent: find_contact_general
+  examples: |
+    - I want contact info
+    - Contacts
+    - Who to contact
+
+- intent: contact_admin
+  examples: |
+    - Admissions Office
+    - Admin
+    - Administration
+
+- intent: contact_placement 
+  examples: |
+    - Placement Cell
+    - Placement & Training
+
+- intent: contact_relation
+  examples: |
+    - International Relations
+
+- intent: library
+  examples: |
+    - E-library
+    - Link to online resources
+    - E-gateway link
+    - Need E-resources
+
+- intent: schools_list
+  examples: |
+    - What are schools at VIT Chennai?
+    - Departments
+    
+
+
+    

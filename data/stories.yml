@@ -1,30 +1,63 @@
 version: "2.0"
 
 stories:
-
-- story: happy path
+- story: beginning of flow
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - checkpoint: ask_questions
 
-- story: sad path 1
+- story: help path 1
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - checkpoint: ask_questions
+  - intent: about_vit
+  - action: utter_vit
 
-- story: sad path 2
+- story: help path 2
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - checkpoint: ask_questions
+  - intent: campus_vit
+  - action: utter_campus
+
+- story: help path 3
+  steps:
+  - checkpoint: ask_questions
+  - intent: programmes_offered
+  - action: utter_programmes 
+
+- story: help path 4
+  steps:
+  - checkpoint: ask_questions
+  - intent: library
+  - action: utter_library_link
+
+- story: help path 5
+  steps:
+  - checkpoint: ask_questions
+  - intent: schools_list
+  - action: utter_school
+
+- story: help path 6
+  steps:
+  - checkpoint: ask_questions
+  - intent: find_contact_general
+  - action: utter_contact_who
+  - checkpoint: contact_info
+
+- story: contact 1
+  steps:
+  - checkpoint: contact_info
+  - intent: contact_admin
+  - action: utter_admin_contact
+
+- story: contact 2
+  steps:
+  - checkpoint: contact_info
+  - intent: contact_placement
+  - action: utter_placement_contact
+
+- story: contact 3
+  steps:
+  - checkpoint: contact_info
+  - intent: contact_relation
+  - action: utter_relation_contact

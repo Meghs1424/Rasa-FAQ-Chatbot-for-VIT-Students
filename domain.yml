@@ -8,10 +8,19 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - about_vit
+  - campus_vit
+  - programmes_offered
+  - find_contact_general
+  - contact_admin
+  - contact_placement 
+  - contact_relation
+  - library
+  - schools_list
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey! How can I help you?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -28,6 +37,43 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_vit:
+  - text: "Vellore Institute of Technology is a private deemed university initially located in Vellore, India. Recognized as an Institution of Eminence by Govt. of India. No. 1 Private University for Innovation as recognized by ARIIA, Govt. of India."
+
+  utter_campus:
+  - text: "There are 4 campuses all-around India - Vellore, Chennai, Bhopal, Amravati "
+
+  utter_programmes:
+  - text: "VIT Group of Institutions offer 64 Undergraduate, 35 Postgraduate, 16 Integrated, 2 Research programmes and 2 M.Tech Industrial Programmes. In addition, full-time Ph.D. in Engineering and Management disciplines, Ph.D. in Science and Languages and Integrated Ph.D. programmes in engineering disciplines are offered."
+
+  utter_contact_who:
+  - text: "Whom do you want to contact?"
+
+  utter_admin_contact:
+  - text: "Dr. T. Palani Rajan\n Assistant Director (Admissions)\n Phone: +91 44 3993 1003\n Fax : +91-44 3993 2555\n Eamil: admin.chennai@vit.ac.in"
+
+  utter_placement_contact:
+  - text: "Dr. Arockia Selvakumar (Director – Placement & Training)\n Prof. V. Anantha Krishnan (Assistant Director – Placements and Training )\n Email: chennai.pat@vit.ac.in"
+
+  utter_relation_contact:
+  - text: "Dr. Syed Ibrahim &\n Dr. Nithya Venkatesan\n Assistant Director – International Relations\n Email: adir.chennai@vit.ac.in"
+
+  utter_library_link:
+  - text: "https://egateway.chennai.vit.ac.in/"
+
+  utter_school:
+  - text: "Here are all the Departments/Schools at VIT Chennai :\n
+          - School of Advanced Sciences (SAS)\n
+          - School of Social Sciences and Languages (SSL)\n
+          - School of Computer Science and Engineering (SCOPE)\n
+          - School of Electrical Engineering (SELECT)\n
+          - School of Electronics Engineering (SENSE)\n
+          - School of Mechanical Engineering (SMEC)\n
+          - School of Civil Engineering (SCE)\n
+          - VIT Business School (VITBS)\n
+          - VIT School of Law (VITSOL)\n
+          - VIT Fashion Institute of Technology (VFIT)"
 
 session_config:
   session_expiration_time: 60
