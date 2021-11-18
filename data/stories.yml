@@ -42,8 +42,17 @@ stories:
   - intent: contact_relation
   - action: utter_relation_contact
 
+- story: help path 7
+  steps:
+  - intent: apply_admission
+  - action: utter_apply_info
+
+- story: help path 8
+  steps:
+  - intent: fee_structure
+  - action: utter_fee_structure
+
 - story: end of flow
   steps:
   - intent: thanks
   - action: utter_welcome
-  - action: utter_goodbye

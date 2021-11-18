@@ -150,6 +150,20 @@ nlu:
     - Appreciate the help
     - That was very helpful
     
+- intent: apply_admission
+  examples: |
+    - How can I apply for admission?
+    - How to get into VIT?
+    - admission test info
+    - VITEEE
+    - VIT admission
+
+- intent: fee_structure
+  examples: |
+    - Can I get the Fee Structure?
+    - Fee structure
+    - How much does it cost to study at VIT?
+    - Fees for VIT 
     
 
 
