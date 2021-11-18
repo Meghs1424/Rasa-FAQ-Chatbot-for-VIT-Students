@@ -51,8 +51,9 @@ responses:
   - text: "There are 4 campuses all-around India - Vellore, Chennai, Bhopal, Amravati"
 
   utter_programmes:
-  - text: "VIT Group of Institutions offer 64 Undergraduate, 35 Postgraduate, 16 Integrated, 2 Research programmes and 2 M.Tech Industrial Programmes. In addition, full-time Ph.D. in Engineering and Management disciplines, Ph.D. in Science and Languages and Integrated Ph.D. programmes in engineering disciplines are offered.\n
-            You can get the whole list at : https://chennai.vit.ac.in/programmes-offered/"
+  - text: "VIT Group of Institutions offer 64 Undergraduate, 35 Postgraduate, 16 Integrated, 2 Research programmes and 2 M.Tech Industrial Programmes.\n
+          In addition, full-time Ph.D. in Engineering and Management disciplines, Ph.D. in Science and Languages and Integrated Ph.D. programmes in engineering disciplines are offered.\n
+          You can get the whole list at : https://chennai.vit.ac.in/programmes-offered/"
 
   utter_contact_who:
   - text: "Whom do you want to contact?"
@@ -76,7 +77,7 @@ responses:
             Email: adir.chennai@vit.ac.in"
 
   utter_library_link:
-  - text: "https://egateway.chennai.vit.ac.in/"
+  - text: "You can find the resources here : https://egateway.chennai.vit.ac.in/"
 
   utter_school:
   - text: "Here are all the Departments/Schools at VIT Chennai :\n
@@ -93,7 +94,7 @@ responses:
 
   utter_apply_info:
   - text: "You can give VITEEE examinations to get into VIT.\n
-            Find further information at : https://viteee.vit.ac.in"
+           Find further information at : https://viteee.vit.ac.in"
 
   utter_fee_structure:
   - text: "You can get the detailed fee structure for all courses at : https://chennai.vit.ac.in/admissions/ug/fee-structure/"
@@ -101,6 +102,7 @@ responses:
   utter_welcome:
   - text: Your welcome
   - text: Happy to help!!
+  - text: At your service
 
 session_config:
   session_expiration_time: 60
