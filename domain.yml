@@ -94,7 +94,8 @@ responses:
 
   utter_apply_info:
   - text: "You can give VITEEE examinations to get into VIT.\n
-           Find further information at : https://viteee.vit.ac.in"
+           Find further information at : https://viteee.vit.ac.in\n
+           Fill in your details and we will contact you."
 
   utter_fee_structure:
   - text: "You can get the detailed fee structure for all courses at : https://chennai.vit.ac.in/admissions/ug/fee-structure/"

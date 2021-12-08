@@ -1,0 +1,7 @@
+version: "2.0"
+stories:
+- story: help path 7 (data/stories.yml)
+  steps:
+  - intent: apply_admission
+  - action: utter_apply_info
+  - action: action_listen  # predicted: utter_thanks
